@@ -121,7 +121,7 @@ def start_end():
     # Convert list of tuples into normal list
    start_end = list(np.ravel(results))
 
-    return jsonify(all_names)
+    return jsonify(start_name)
 
 
 
